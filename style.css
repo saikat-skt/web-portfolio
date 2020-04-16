@@ -26,9 +26,6 @@ h2{
      font-weight:400px;
 }
 
-
-
-
 .half-width{
     width: 40%;
     float: left;
@@ -42,14 +39,12 @@ h2{
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    
-    
+   
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
-   
-   
+    padding-bottom: 70px;
+    
 }
 .link-button{
     text-decoration: none;
@@ -88,9 +83,35 @@ section{
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
 }  
-.footer-para{
+.last-width{
+    width: 60%;
+    float: left;
+    margin-left: 100px;
+    padding-left: 6px;
+}
+
+.new-btn{
+    background-color: teal;
+color: thistle;
+margin-left: 27px;
+padding: 12px 37px 13px 37px;
+margin-top: 12px;
+text-decoration: none;
+font-size: 14px;
+transition: 1s;
+border-radius: 3px;
+   
+}
+.new-btn:hover{
+    color: black;
+    border-radius: 10px;
+    background-color: cadetblue;
+    font-size: 16px;
+}
+footer p{
+    color: grey;
     text-align: center;
-    color: gray;
+    margin-top: 10px;
 }
 
 
